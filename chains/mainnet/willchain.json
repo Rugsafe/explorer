@@ -2,10 +2,10 @@
     "chain_name": "willchain",
     "coingecko": "willchain",
     "api": [
-        {"provider": "willchain labs", "address": "http://127.0.0.1:1317"}
+        {"provider": "willchain labs", "address": "http://192.168.1.100:1317"}
     ],
     "rpc": [
-        {"provider": "willchain labs", "address": "http://127.0.0.1:26657"}
+        {"provider": "willchain labs", "address": "http://192.168.1.100:26657"}
     ],
     "snapshot_provider": "",
     "sdk_version": "0.50.1",
