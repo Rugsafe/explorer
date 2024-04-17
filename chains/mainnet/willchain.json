@@ -1,0 +1,24 @@
+{
+    "chain_name": "willchain",
+    "coingecko": "willchain",
+    "api": [
+        {"provider": "willchain labs", "address": "http://127.0.0.1:1317"}
+    ],
+    "rpc": [
+        {"provider": "willchain labs", "address": "http://127.0.0.1:26657"}
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.50.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "will",
+    "logo": "/logo.png",
+    "theme_color": "#812cd6",
+    "assets": [{
+        "base": "uwill",
+        "symbol": "WILL",
+        "exponent": "6",
+        "coingecko_id": "willchain", 
+        "logo": "/logo.png"
+    }]
+}
