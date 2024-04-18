@@ -1,0 +1,25 @@
+name: Willchain Explorer
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master]
+
+jobs:
+
+  deploy:
+    runs-on: self-hosted
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Build Frontend
+      run: npm install
+
+    - name: Kill Tmux Session
+      run: tmux kill-session -t github-runner-session || true
+
+    - name: Run Explorer
+      run: tmux new -d -s will-chain-explorer 'sh -c "npm run dev"';
+
+
