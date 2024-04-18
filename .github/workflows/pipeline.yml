@@ -17,9 +17,9 @@ jobs:
       run: npm install
 
     - name: Kill Tmux Session
-      run: tmux kill-session -t github-runner-session || true
+      run: tmux kill-session -t willchain-explorer || true
 
     - name: Run Explorer
-      run: tmux new -d -s will-chain-explorer 'sh -c "npm run dev"';
+      run: tmux new -d -s willchain-explorer 'sh -c "npm run dev"';
 
 
