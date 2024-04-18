@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Build Frontend
+    - name: Build Frontend 
       run: bash ./run.sh
 
 
