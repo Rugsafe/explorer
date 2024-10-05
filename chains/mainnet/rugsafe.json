@@ -1,0 +1,24 @@
+{
+    "chain_name": "rugsafe",
+    "coingecko": "rugsafe",
+    "api": [
+        {"provider": "Rugsafe, inc", "address": "http://192.168.1.108:1317"}
+    ],
+    "rpc": [
+        {"provider": "Rugsafe, inc", "address": "http://192.168.1.108:26657"}
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.50.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "rug",
+    "logo": "/rugsafe-logo.png",
+    "theme_color": "#812cd6",
+    "assets": [{
+        "base": "urug",
+        "symbol": "RUG",
+        "exponent": "6",
+        "coingecko_id": "rugsafe", 
+        "logo": "/rugsafe-logo.png"
+    }]
+}

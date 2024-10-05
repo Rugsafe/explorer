@@ -84,7 +84,7 @@ dayjs()
           <img class="w-10 h-10" src="/logo.png" alt="Logo" />
 
           <h1 class="flex-1 ml-3 text-2xl font-semibold dark:text-white">
-            Willchain
+            Rugsafe
           </h1>
         </RouterLink>
         <div
