@@ -2,10 +2,10 @@
     "chain_name": "rugsafe",
     "coingecko": "rugsafe",
     "api": [
-        {"provider": "Rugsafe, inc", "address": "https://poodle-keen-solely.ngrok-free.app"}
+        {"provider": "Rugsafe, inc", "address": "https://api-rugsafe.ngrok.io"}
     ],
     "rpc": [
-        {"provider": "Rugsafe, inc", "address": "http://192.168.1.108:26657"}
+        {"provider": "Rugsafe, inc", "address": "https://rpc-rugsafe.ngrok.io"}
     ],
     "snapshot_provider": "",
     "sdk_version": "0.50.1",
