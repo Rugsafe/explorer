@@ -2,10 +2,10 @@
     "chain_name": "rugsafe",
     "coingecko": "rugsafe",
     "api": [
-        {"provider": "Rugsafe, inc", "address": "https://api-rugsafe.ngrok.io"}
+        {"provider": "Rugsafe, inc", "address": "https://api.rugsafe.network/"}
     ],
     "rpc": [
-        {"provider": "Rugsafe, inc", "address": "https://rpc-rugsafe.ngrok.io"}
+        {"provider": "Rugsafe, inc", "address": "https://rpc.rugsafe.network/"}
     ],
     "snapshot_provider": "",
     "sdk_version": "0.50.1",
