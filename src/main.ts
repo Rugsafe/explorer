@@ -23,7 +23,6 @@ app.mount('#app');
 const blockStore = useBaseStore();
 const requestCounter = ref(0);
 
-router.push('/rugsafe');
 
 
 setInterval(() => {
@@ -33,3 +32,5 @@ setInterval(() => {
     blockStore.fetchLatest().finally(() => (requestCounter.value -= 1));
   }
 }, 6000);
+
+// router.push('/rugsafe');
