@@ -33,4 +33,4 @@ setInterval(() => {
   }
 }, 6000);
 
-// router.push('/rugsafe');
+router.push('/rugsafe');
