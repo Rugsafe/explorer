@@ -8,4 +8,5 @@ source ~/.nvm/nvm.sh
 node -v
 nvm use v18.12.0; npm install --force;
 tmux kill-session -t rugsafe-explorer || true;
-tmux new -d -s rugsafe-explorer 'sh -c "npm build; cd dist/; python -m http.server 5173;"';
+sleep 5;
+tmux new -d -s rugsafe-explorer 'sh -c "yarn build; cd dist/; python -m http.server 5173;"';
