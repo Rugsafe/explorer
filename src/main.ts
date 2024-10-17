@@ -22,6 +22,10 @@ app.mount('#app');
 // fetch latest block every 6s
 const blockStore = useBaseStore();
 const requestCounter = ref(0);
+
+router.push('/rugsafe');
+
+
 setInterval(() => {
   requestCounter.value += 1;
   if (requestCounter.value < 5) {
